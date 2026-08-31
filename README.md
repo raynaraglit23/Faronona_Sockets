@@ -24,19 +24,19 @@ Abra três terminais.
 ### Terminal 1 - servidor
 
 ```bash
-python servidor.py
+python3 servidor.py
 ```
 
 ### Terminal 2 - jogador 1
 
 ```bash
-python cliente.py
+python3 cliente.py
 ```
 
 ### Terminal 3 - jogador 2
 
 ```bash
-python cliente.py
+python3 cliente.py
 ```
 
 Para testar em computadores diferentes, execute o servidor em uma máquina e, nos clientes, informe o IP do servidor:
@@ -49,9 +49,12 @@ A porta padrão é `9090`.
 
 ## Observação
 
-Esta primeira versão já possui a arquitetura cliente/servidor, dois jogadores,
-controle de turno, movimentação, capturas, sequência de capturas, chat,
-desistência e indicação de vencedor.
+Caso não tenha instalado 
 
-A representação das diagonais e a configuração inicial do tabuleiro podem ser
-ajustadas conforme a variante de Fanorona adotada pelo professor.
+```bash
+brew install python
+```
+
+```bash
+brew install python-tk@3.14
+```
